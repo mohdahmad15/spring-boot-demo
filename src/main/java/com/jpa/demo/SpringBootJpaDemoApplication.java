@@ -22,7 +22,7 @@ public class SpringBootJpaDemoApplication {
 		user.setName("Aamir");
 		user.setCity("Basti");
 		user.setStatus("JAVA Developer");
-
+		//this program told by Aamir Bhai
 		User user1=userRepository.save(user);
 		System.out.println(user1);
 
